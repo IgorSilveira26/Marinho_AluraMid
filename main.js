@@ -59,5 +59,9 @@ function tocaSomPom () {
     document.querySelector('#som_tecla_tic').play();
    
  }
- document.querySelector('.tecla_tic').onclick = tocaSomTic
- 
+ document.querySelector('.tecla_tom').onclick = tocaSomTom
+ function tocaSomTom () {
+   document.querySelector('#som_tecla_tom').play();
+  
+}
+document.querySelector('.tecla_tom').onclick = tocaSomTom
